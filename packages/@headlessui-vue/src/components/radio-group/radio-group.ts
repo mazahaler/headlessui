@@ -180,7 +180,6 @@ export let RadioGroup = defineComponent({
 
         case Keys.Space:
           {
-            event.preventDefault()
             event.stopPropagation()
 
             let activeOption = options.value.find(
